@@ -1,32 +1,32 @@
-import { ArrowRight } from 'lucide-react';
+import { BriefcaseBusiness } from 'lucide-react';
 import type { ProjectItem } from '../types';
 
 type ProjectCardProps = {
   project: ProjectItem;
-  viewMoreLabel: string;
 };
 
-export default function ProjectCard({ project, viewMoreLabel }: ProjectCardProps) {
+export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <article className="group rounded-3xl border border-slate-200/70 bg-white/90 p-6 shadow-soft transition hover:-translate-y-1 hover:border-brand/30 hover:bg-brand/5 dark:border-slate-800/80 dark:bg-slate-950/95 dark:hover:border-brand/40">
-      <div className="mb-5 flex items-center justify-between gap-4 text-sm font-semibold uppercase tracking-[0.2em] text-brand">
-        <span>{project.name}</span>
-        {project.status ? <span className="rounded-full bg-brand/10 px-3 py-1 text-xs text-brand">{project.status}</span> : null}
+    <article className="group tech-panel relative overflow-hidden rounded-lg p-6 transition duration-300 hover:-translate-y-1 hover:border-brand-rose/40 hover:shadow-glow">
+      <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-brand-rose via-brand-blush to-brand" />
+      <div className="mb-6 flex items-start justify-between gap-4">
+        <div className="flex items-center gap-3">
+          <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-brand-rose/20 bg-brand-blush/45 text-brand-rose dark:bg-brand-rose/10">
+            <BriefcaseBusiness size={20} />
+          </span>
+          <div>
+            <h3 className="text-lg font-semibold tracking-tight text-slate-950 dark:text-white">{project.name}</h3>
+            {project.status ? <p className="mt-1 text-xs font-semibold uppercase tracking-[0.16em] text-brand-rose">{project.status}</p> : null}
+          </div>
+        </div>
       </div>
-      <div className="h-52 overflow-hidden rounded-3xl bg-slate-950/5 text-slate-500 dark:bg-slate-800/80 dark:text-slate-400">
-        <div className="flex h-full items-center justify-center text-sm uppercase tracking-[0.2em]">Screenshot placeholder</div>
-      </div>
-      <p className="mt-6 text-sm leading-7 text-slate-700 dark:text-slate-300">{project.description}</p>
+      <p className="text-sm leading-7 text-slate-700 dark:text-slate-300">{project.description}</p>
       <div className="mt-5 flex flex-wrap gap-2">
         {project.technologies.map((technology) => (
-          <span key={technology} className="rounded-full border border-slate-200 bg-slate-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.15em] text-slate-700 dark:border-slate-800 dark:bg-slate-800 dark:text-slate-200">
+          <span key={technology} className="rounded-md border border-slate-200 bg-white/80 px-3 py-1 text-xs font-semibold uppercase tracking-[0.13em] text-slate-700 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">
             {technology}
           </span>
         ))}
-      </div>
-      <div className="mt-6 flex items-center gap-2 text-sm font-semibold text-brand">
-        <span>{viewMoreLabel}</span>
-        <ArrowRight size={16} />
       </div>
     </article>
   );

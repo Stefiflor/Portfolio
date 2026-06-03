@@ -15,9 +15,13 @@
       "tag": "Producto · Fintech · IA",
       "title": "Full Stack Developer",
       "description": "Construyo experiencias digitales con enfoque en producto, rendimiento y arquitecturas escalables para equipos de ingeniería.",
-      "metric1": { "value": "5+", "label": "Años de experiencia" },
-      "metric2": { "value": "20+", "label": "Proyectos reales" },
-      "metric3": { "value": "7", "label": "Integraciones IA" }
+      "softSkills": [
+        "Adaptabilidad",
+        "Aprendizaje continuo",
+        "Mentalidad comercial",
+        "Comunicación estratégica",
+        "Resolución de problemas"
+      ]
     }
   },
   "about": {
@@ -27,8 +31,9 @@
     "paragraphs": [
       "Trabajo en el desarrollo de plataformas escalables que conectan experiencia de usuario, negocio y tecnología de forma armónica.",
       "He liderado interfaces modernas, APIs robustas e integraciones con servicios externos en proyectos fintech y aplicaciones empresariales.",
+      "También diseño automatizaciones y flujos operativos apoyados en CRM para mejorar seguimiento comercial, reducir tareas manuales y ordenar procesos internos.",
       "Mi experiencia comercial y de operaciones complementa mi visión técnica: entrego soluciones que generan valor real y mantienen la estabilidad del producto.",
-      "Actualmente profundizo en modelos de IA, agentes inteligentes y arquitecturas basadas en LLM para transformar procesos y mejorar la productividad.",
+      "Actualmente profundizo en modelos de IA, agentes inteligentes y arquitecturas basadas en LLM para transformar procesos, automatizar operaciones y mejorar la productividad.",
       "Mi enfoque combina una ejecución precisa en frontend moderno con una mentalidad product-driven y de arquitectura sostenible."
     ],
     "focusTitle": "Enfoque de producto",
@@ -95,7 +100,7 @@
   },
   "projects": {
     "eyebrow": "Proyectos destacados",
-    "title": "Portafolio técnico",
+    "title": "Proyectos seleccionados",
     "subtitle": "Casos de uso reales que reflejan mi enfoque en producto, fintech e IA.",
     "items": [
       {
@@ -157,10 +162,11 @@
     "description": "Escríbeme para discutir oportunidades de producto, arquitectura de sistemas o integraciones de IA.",
     "cardTitle": "Construyamos producto juntos",
     "cardDescription": "Estoy lista para colaborar con equipos de ingeniería que buscan soluciones escalables y efectivas.",
-    "point1": "Disponibilidad para roles remotos e híbridos.",
+    "point1": "Disponibilidad para roles remotos.",
     "point2": "Experiencia con procesos ágiles y squads multifuncionales.",
     "point3": "Enfoque en calidad, escalabilidad y entrega continua.",
     "email": "florenciagambero12@gmail.com",
+    "whatsapp": "https://wa.me/5491149272336?text=Hola%20Florencia%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20conversar%20con%20vos%20sobre%20una%20oportunidad%20laboral%20o%20proyecto.",
     "linkedin": "https://www.linkedin.com/in/florencia-gambero",
     "github": "https://github.com/Stefiflor"
   },

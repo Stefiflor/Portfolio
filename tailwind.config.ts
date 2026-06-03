@@ -7,18 +7,24 @@ export default {
     extend: {
       colors: {
         surface: {
-          DEFAULT: '#f8fafc',
-          muted: '#e2e8f0',
-          dark: '#111827',
-          soft: '#0f172a',
+          DEFAULT: '#f4f7fb',
+          muted: '#dce5ef',
+          dark: '#070b12',
+          soft: '#0d1420',
         },
         brand: {
-          DEFAULT: '#6366f1',
-          dark: '#4f46e5',
+          DEFAULT: '#14b8a6',
+          dark: '#0f766e',
+          electric: '#38bdf8',
+          pulse: '#f43f5e',
+          rose: '#b76e79',
+          blush: '#ead3d6',
+          beige: '#f2e7d9',
         },
       },
       boxShadow: {
-        soft: '0 25px 80px rgba(15, 23, 42, 0.08)',
+        soft: '0 18px 60px rgba(83, 52, 66, 0.11)',
+        glow: '0 0 0 1px rgba(183, 110, 121, 0.18), 0 24px 80px rgba(83, 52, 66, 0.20)',
       },
     },
   },

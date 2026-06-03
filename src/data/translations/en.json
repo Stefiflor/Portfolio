@@ -15,9 +15,13 @@
       "tag": "Product · Fintech · AI",
       "title": "Full Stack Developer",
       "description": "I create digital experiences with a strong product mindset, performance focus and scalable architecture.",
-      "metric1": { "value": "5+", "label": "Years of experience" },
-      "metric2": { "value": "20+", "label": "Real projects" },
-      "metric3": { "value": "7", "label": "AI integrations" }
+      "softSkills": [
+        "Adaptability",
+        "Continuous learning",
+        "Commercial mindset",
+        "Strategic communication",
+        "Problem solving"
+      ]
     }
   },
   "about": {
@@ -27,8 +31,9 @@
     "paragraphs": [
       "I build scalable platforms that connect user experience, business goals and technical excellence.",
       "I have contributed to modern interfaces, robust APIs and external service integrations in fintech and enterprise applications.",
+      "I also design automations and CRM-supported operational flows to improve commercial follow-up, reduce manual work and organize internal processes.",
       "My commercial and operations background complements my technical vision so I can deliver solutions with business impact.",
-      "I currently deepen my knowledge in AI models, intelligent agents and LLM-based architectures to transform processes.",
+      "I currently deepen my knowledge in AI models, intelligent agents and LLM-based architectures to transform processes, automate operations and improve productivity.",
       "My approach combines modern frontend execution with a product-driven, sustainable architecture mindset."
     ],
     "focusTitle": "Product-driven focus",
@@ -95,7 +100,7 @@
   },
   "projects": {
     "eyebrow": "Featured work",
-    "title": "Highlighted projects",
+    "title": "Selected projects",
     "subtitle": "Technical cases that showcase my product, fintech and AI capabilities.",
     "items": [
       {
@@ -157,10 +162,11 @@
     "description": "Reach out to discuss product opportunities, system architecture or AI integrations.",
     "cardTitle": "Let’s build product together",
     "cardDescription": "I’m ready to collaborate with engineering teams seeking scalable and effective solutions.",
-    "point1": "Available for remote and hybrid roles.",
+    "point1": "Available for remote roles.",
     "point2": "Experienced with agile processes and multifunctional squads.",
     "point3": "Focused on quality, scalability and continuous delivery.",
     "email": "florenciagambero12@gmail.com",
+    "whatsapp": "https://wa.me/5491149272336?text=Hi%20Florencia%2C%20I%20saw%20your%20portfolio%20and%20I%20would%20like%20to%20talk%20with%20you%20about%20a%20job%20opportunity%20or%20project.",
     "linkedin": "https://www.linkedin.com/in/florencia-gambero",
     "github": "https://github.com/Stefiflor"
   },
