@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "items": ["Inicio", "Sobre mí", "Experiencia", "Proyectos", "Tecnologías", "IA & Automatización", "Contacto"]
+  },
+  "hero": {
+    "label": "Perfil profesional",
+    "name": "Florencia Gambero",
+    "subtitle": "Desarrollo aplicaciones web modernas, plataformas fintech e integraciones de inteligencia artificial utilizando tecnologías escalables y arquitecturas orientadas a producto.",
+    "buttons": {
+      "cv": "Descargar CV",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "card": {
+      "tag": "Producto · Fintech · IA",
+      "title": "Full Stack Developer",
+      "description": "Construyo experiencias digitales con enfoque en producto, rendimiento y arquitecturas escalables para equipos de ingeniería.",
+      "metric1": { "value": "5+", "label": "Años de experiencia" },
+      "metric2": { "value": "20+", "label": "Proyectos reales" },
+      "metric3": { "value": "7", "label": "Integraciones IA" }
+    }
+  },
+  "about": {
+    "eyebrow": "Perfil profesional",
+    "title": "Sobre mí",
+    "subtitle": "Soy Full Stack Developer con experiencia en productos fintech, SaaS y soluciones de IA para empresas internacionales.",
+    "paragraphs": [
+      "Trabajo en el desarrollo de plataformas escalables que conectan experiencia de usuario, negocio y tecnología de forma armónica.",
+      "He liderado interfaces modernas, APIs robustas e integraciones con servicios externos en proyectos fintech y aplicaciones empresariales.",
+      "Mi experiencia comercial y de operaciones complementa mi visión técnica: entrego soluciones que generan valor real y mantienen la estabilidad del producto.",
+      "Actualmente profundizo en modelos de IA, agentes inteligentes y arquitecturas basadas en LLM para transformar procesos y mejorar la productividad.",
+      "Mi enfoque combina una ejecución precisa en frontend moderno con una mentalidad product-driven y de arquitectura sostenible."
+    ],
+    "focusTitle": "Enfoque de producto",
+    "focusDescription": "Diseño soluciones que buscan resultados tangibles: adopción, reducción de complejidad técnica y una hoja de ruta clara.",
+    "skill1": { "title": "Estrategia de producto", "description": "Trabajo con equipos multidisciplinarios para construir experiencias alineadas a objetivos comerciales." },
+    "skill2": { "title": "Arquitectura técnica", "description": "Implemento estructuras modulares, componentes reutilizables y flujos escalables para aplicaciones modernas." },
+    "skill3": { "title": "Integración IA", "description": "Desarrollo soluciones que combinan datos, modelos y automatización para aumentar inteligencia en el producto." }
+  },
+  "experience": {
+    "eyebrow": "Trayectoria profesional",
+    "title": "Experiencia",
+    "subtitle": "Proyectos reales en fintech, plataformas SaaS y aplicaciones con integración de inteligencia artificial.",
+    "labels": {
+      "responsibilities": "Responsabilidades",
+      "technologies": "Tecnologías"
+    },
+    "items": [
+      {
+        "company": "ENVI",
+        "period": "2026 - Actualidad",
+        "role": "Frontend Developer",
+        "project": "Thalk",
+        "description": "Participación en el desarrollo de Thalk, una plataforma de comunicación omnicanal enfocada en UX moderna, escalabilidad e IA.",
+        "responsibilities": [
+          "Desarrollo frontend con Vue.js 3 y TypeScript.",
+          "Diseño de arquitectura basada en componentes reutilizables.",
+          "Internacionalización y interfaces responsive.",
+          "Integraciones con Node.js y modelos de IA.",
+          "Optimización de experiencia de usuario junto a producto."
+        ],
+        "technologies": ["Vue.js 3", "TypeScript", "Node.js", "AI Integrations", "Claude API", "i18n"]
+      },
+      {
+        "company": "WIRALL",
+        "period": "2025 - 2026",
+        "role": "Full Stack Developer",
+        "project": "Tarjetas Peruanas / La Mágica",
+        "description": "Desarrollo y mantenimiento de plataformas fintech orientadas a pagos digitales, tarjetas prepagas y operaciones financieras.",
+        "responsibilities": [
+          "Frontend con React y Next.js.",
+          "Backend con Node.js y PHP.",
+          "Refactorización de sistemas legacy.",
+          "Integración de APIs y optimización de procesos.",
+          "Trabajo conjunto con DevOps y despliegues en AWS." 
+        ],
+        "technologies": ["React", "Next.js", "TypeScript", "Node.js", "PHP", "PostgreSQL", "Docker", "AWS", "Kubernetes", "ArgoCD"]
+      },
+      {
+        "company": "SOFT LANDING WORLD",
+        "period": "2019 - 2024",
+        "role": "Business Operations, Marketing & Web Development",
+        "project": "Consultoría integral",
+        "description": "Rol multidisciplinario combinando desarrollo web, operaciones comerciales, administración y marketing digital.",
+        "responsibilities": [
+          "Desarrollo de sitios web y landing pages.",
+          "Automatización de procesos digitales.",
+          "Estrategias de marketing digital y generación de leads.",
+          "Gestión de CRM y seguimiento comercial.",
+          "Optimización de procesos internos y consultoría para clientes."
+        ],
+        "technologies": ["React", "Next.js", "Tailwind CSS", "Stripe", "Automatización", "CRM"]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Proyectos destacados",
+    "title": "Portafolio técnico",
+    "subtitle": "Casos de uso reales que reflejan mi enfoque en producto, fintech e IA.",
+    "items": [
+      {
+        "name": "Thalk",
+        "description": "Plataforma de comunicación omnicanal inspirada en Chatwoot con arquitectura moderna, soporte multilenguaje e integración de IA.",
+        "technologies": ["Vue.js 3", "TypeScript", "Node.js", "Claude API"],
+        "status": "En producción"
+      },
+      {
+        "name": "Tarjetas Peruanas",
+        "description": "Plataforma fintech para administración de tarjetas prepagas, pagos digitales y operaciones financieras.",
+        "technologies": ["React", "Next.js", "Node.js", "PHP"],
+        "status": "Fintech product"
+      },
+      {
+        "name": "Club Active Center",
+        "description": "Sistema integral para gestión de reservas, pagos, usuarios y operaciones de un club deportivo.",
+        "technologies": ["Next.js", "TypeScript", "Tailwind", "Stripe"],
+        "status": "SaaS operations"
+      },
+      {
+        "name": "Movies App",
+        "description": "Aplicación Full Stack para gestión y visualización de películas con backend, autenticación y persistencia de datos.",
+        "technologies": ["React", "Node.js", "PostgreSQL"],
+        "status": "Full Stack" 
+      },
+      {
+        "name": "Appointment Management System",
+        "description": "Sistema de gestión de turnos con reglas de negocio, administración de usuarios y validaciones complejas.",
+        "technologies": ["React", "Node.js", "TypeORM"],
+        "status": "Workflow" 
+      }
+    ],
+    "viewMore": "Ver más"
+  },
+  "technologies": {
+    "eyebrow": "Stack técnico",
+    "title": "Tecnologías",
+    "subtitle": "Herramientas y plataformas con las que construyo soluciones de producto y escala.",
+    "groups": [
+      { "title": "Frontend", "items": ["React", "Next.js", "Vue.js 3", "TypeScript", "JavaScript", "Tailwind CSS"] },
+      { "title": "Backend & Infra", "items": ["Node.js", "Express", "PHP", "PostgreSQL", "MongoDB", "Docker", "AWS", "Kubernetes", "ArgoCD"] }
+    ]
+  },
+  "automation": {
+    "eyebrow": "IA y productividad",
+    "title": "IA & Automatización",
+    "subtitle": "Construyo capacidades de automatización y agentes inteligentes para productos más eficientes.",
+    "items": [
+      { "title": "Modelos LLM", "description": "Diseño integraciones que aprovechan modelos de lenguaje para automatizar flujos y sugerencias en productos.", "tag": "LLM" },
+      { "title": "Claude API", "description": "Implemento conectores y uso de APIs de Claude para capacidades conversacionales y análisis inteligente.", "tag": "Claude" },
+      { "title": "Automatización de procesos", "description": "Transformo procesos manuales en soluciones técnicas que reducen tiempos y mejoran consistencia.", "tag": "Automatización" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Conecta conmigo",
+    "title": "Contacto",
+    "subtitle": "Estoy disponible para roles Full Stack, fintech, SaaS y proyectos con IA.",
+    "description": "Escríbeme para discutir oportunidades de producto, arquitectura de sistemas o integraciones de IA.",
+    "cardTitle": "Construyamos producto juntos",
+    "cardDescription": "Estoy lista para colaborar con equipos de ingeniería que buscan soluciones escalables y efectivas.",
+    "point1": "Disponibilidad para roles remotos e híbridos.",
+    "point2": "Experiencia con procesos ágiles y squads multifuncionales.",
+    "point3": "Enfoque en calidad, escalabilidad y entrega continua.",
+    "email": "florenciagambero12@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/florencia-gambero",
+    "github": "https://github.com/Stefiflor"
+  },
+  "footer": {
+    "copy": "Florencia Gambero © 2026. Portfolio preparado para roles Full Stack y fintech.",
+    "location": "LatAm / remoto",
+    "focus": "Producto, ingeniería y IA"
+  }
+}
