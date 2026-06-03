@@ -15,6 +15,7 @@ npm install
 ```bash
 npm run dev
 ```
+```
 
 3. Abrir el URL que indica Vite en el navegador.
 
